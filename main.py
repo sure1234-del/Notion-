@@ -12,7 +12,7 @@ import google.generativeai as genai
 # 1. HARDCODED CREDENTIALS & SANITIZED CONFIGURATION
 # ==============================================================================
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8861547714:AAEkrMt6ZCdamGx5RlrV1V-kXlld32lRMKg").strip()
-GEMINI_KEY = os.environ.get("GEMINI_KEY", "AQ.Ab8RN6LreF71LETZuJFqQ_gGwdB2rygeNrvalbcMA1wHdlj8oA").strip()
+GEMINI_KEY = os.environ.get("GEMINI_KEY", "AQ.Ab8RN6Kv9DH3m5YpxVIP2-hGOpIEqtH48TuRiRIaHKcMa_L71A").strip()
 NOTION_TOKEN = os.environ.get("NOTION_TOKEN", "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").strip()
 
 # Database ID sanitized from any accidental brackets or trailing slashes
